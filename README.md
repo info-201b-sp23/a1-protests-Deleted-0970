@@ -22,28 +22,36 @@ Before diving into this (or any) dataset, it's important to know where the data 
 To get more familiar, we are going to begin by doing some background reading.
 
 - First, please read [this FAQ](https://countlove.org/faq.html) from the CountLove website and the opening of [this blog post](https://www.tommyleung.com/countLove/index.htm). Based on the information in these pieces, why did the creators start collecting the CountLove data? Please answer in 2-3 sentences (3 points)
+**The authors decided to start collecting data on protests and demonstrations because they are a good way to commmunicate with elected leaders. They hope to keep a record of this data in order to support a "diverse, empathetic, and kind country" (Leung & Perkins). This is also being done because there is barely any data being gathered on this topic despite being commonly and widely reported in news articles.**
 
 - Next, we would like you to read this [*New York Times* piece, which uses CountLove data](https://www.nytimes.com/interactive/2020/06/13/us/george-floyd-protests-cities-photos.html) (here's a [Google Doc version for anyone who gets paywalled](https://docs.google.com/document/d/1sdjFsA5csYuH4plNEEk7WXT77K5h5ZuyW05CBwYdk6A/edit?usp=sharing)), and which describes the Black Lives Matter protests that occurred in the summer of 2020. Please summarize the main point or argument of this article in 2-3 sentences (3 points)
 
 Next, we're going to reflect about who collected this data, and what's actually inside it.
 
 - Who collected and shared the CountLove data, and what do they do for a living? Please answer in 1-2 sentences(2 points)
+**One of the authors of the CountLove data is Tommy Leung was a student at MIT who enjoys cooking, coding, and drinking coffee. The other author, Nathan Perkins, was also an MIT graduate student, studies brains, and participated in multiple projects in the last several years.**
 
 - As Klein and D'Ignazio remind us, when it comes to data, "what gets counted counts." What types of demonstrations does CountLove include in their data, and what types do they exclude? (3 points)
+**As mentioned on the CountLove website, they do not count protests that are not out of the ordinary. This means they do not include awareness events, celebrations, reenactments, fundraising, and political rallies**
 
 - How and where does CountLove get their data about the protests? Please answer in 2-3 sentences (2 points)
+**CountLove gets its data from news articles. They automate most of the process but the two authors read through the articles to create descriptions for each protest and decide on other metrics such as attendance count.**
 
 - How does CountLove make their estimates about the number of people who attended a protest? What potential problems might arise from this method of estimation? Please answer in 3-4 sentences (4 points)
+**They estimate the number of attendees through primary sources such as news reports or videos. The exact number is recorded very conservatively with a dozen being translated to 10 or hundreds being translated to 100. While this obviously can lead to data that underrepresents the scale of the protest or demonstration, it could also underrepresent the amount of partcipation in protests and demonstrations nationwide.**
 
 ## While You Code: Critical Analysis & Reflection
 
 - Reflection 1: Why do you think the mean is higher than the median? Which metric would you use in a report about this data, and why? Please answer in 2-3 sentences (2 points)
+**The mean is higher than the median because the mean is influenced by outliers and skew more. I would use the median to report about this data since it is a better representation of typical values in the data**
 
 - Reflection 2: Before actually calculating the number of protests that occurred in 2018, 2019, 2020, record your guesses for the following questions. (1 point)
 
   Guess: Do you think there were more protests in 2019 than in 2018? Why or why not? Please answer in 1 or 2 sentences
+  **I think that there were more protests in 2019. I believe that due to the increased polarization of values every year, there would be more demonstrations and protests.**
 
   Guess: Do you think there were more protests in 2020 than in 2019? Why or why not? Please answer in 1 or 2 sentences
+  **I think that there were more protests in 2019. I believe that due to the COVID19 outbreak, there was less participation in protests and demonstrations.**
 
 - Reflection 3: Does the change in the number of protests from 2018 to 2019 to 2020 surprise you? Why or why not? What do you think explains the fluctuation? Please answer in 1 or 2 sentences (2 points)
 

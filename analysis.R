@@ -147,7 +147,6 @@ count_protests_in_location <- function(in_location) {
 # Save the resulting message in a variable called `dc_summary`
 dc_summary <- count_protests_in_location("Washington, DC")
 
-
 # (3.g) Use your function above to compute the number of protests in
 # "Minneapolis" and return the resulting message
 # # Save the resulting message in a variable called `minneapolis_summary`
@@ -157,7 +156,6 @@ minneapolis_summary <- count_protests_in_location("Minneapolis")
 # so, first use a stringr function to extract the last 2 characters from every
 # location and use these 2 characters to create a new vector called `states`
 states <- substr(locations, nchar(locations)-1, nchar(locations))
-
 
 # (3.i) What are the unique states are in the dataset? Create a vector of just the
 # unique states in the dataset
@@ -220,7 +218,6 @@ protests_in_2018 <- dates[dates >= "2018-01-01" & dates <= "2018-12-31"]
 # Guess: Do you think there were more protests in 2019 than in 2018? Why or why not?
 # Guess: Do you think there were more protests in 2020 than in 2019? Why or why not?
 
-
 # (4.h) Now use the length() function to find out how many protests happened in
 # 2018 vs. 2019 vs. 2020. 
 # Save them in the varaibles `num_protests_in_2018`, `num_protests_in_2019`,
@@ -232,7 +229,6 @@ num_protests_in_2020 <- length(protests_in_2020)
 # Reflection 3 (answer in the README.md file)
 # Does the change in the number of protests from 2018 to 2019 to 2020 surprise
 # you? Why or why not? What do you think explains the fluctuation?
-
 
 ## Part 5: Protest Purpose (6 points) ------------------------------------------
 # In this section, you will explore *why* the protests happened.

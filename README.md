@@ -25,6 +25,7 @@ To get more familiar, we are going to begin by doing some background reading.
 **The authors decided to start collecting data on protests and demonstrations because they are a good way to commmunicate with elected leaders. They hope to keep a record of this data in order to support a "diverse, empathetic, and kind country" (Leung & Perkins). This is also being done because there is barely any data being gathered on this topic despite being commonly and widely reported in news articles.**
 
 - Next, we would like you to read this [*New York Times* piece, which uses CountLove data](https://www.nytimes.com/interactive/2020/06/13/us/george-floyd-protests-cities-photos.html) (here's a [Google Doc version for anyone who gets paywalled](https://docs.google.com/document/d/1sdjFsA5csYuH4plNEEk7WXT77K5h5ZuyW05CBwYdk6A/edit?usp=sharing)), and which describes the Black Lives Matter protests that occurred in the summer of 2020. Please summarize the main point or argument of this article in 2-3 sentences (3 points)
+**The main point of the article is to show the widespread response to the response to the death of George Floyd. This is done by showing the reader visualizations of where protests are happening and by showing how participants from multiple diverse communities came together to support black lives.**
 
 Next, we're going to reflect about who collected this data, and what's actually inside it.
 
@@ -43,7 +44,7 @@ Next, we're going to reflect about who collected this data, and what's actually 
 ## While You Code: Critical Analysis & Reflection
 
 - Reflection 1: Why do you think the mean is higher than the median? Which metric would you use in a report about this data, and why? Please answer in 2-3 sentences (2 points)
-**The mean is higher than the median because the mean is influenced by outliers and skew more. I would use the median to report about this data since it is a better representation of typical values in the data**
+**The mean is different from the median because the mean is influenced by outliers and skew more. The mean being significantly higher than the median means that the data is skewed left or there are protests with an extremely high outlier amount of attendees. I would use the median to report about this data since it is a better representation of typical values in the data**
 
 - Reflection 2: Before actually calculating the number of protests that occurred in 2018, 2019, 2020, record your guesses for the following questions. (1 point)
 
@@ -51,11 +52,13 @@ Next, we're going to reflect about who collected this data, and what's actually 
   **I think that there were more protests in 2019. I believe that due to the increased polarization of values every year, there would be more demonstrations and protests.**
 
   Guess: Do you think there were more protests in 2020 than in 2019? Why or why not? Please answer in 1 or 2 sentences
-  **I think that there were more protests in 2019. I believe that due to the COVID19 outbreak, there was less participation in protests and demonstrations.**
+  **I think that there were more protests in 2020. Despite the COVID19 outbreak, I believe that there was more awareness and participation in protests and demonstrations especially involving social justice issues.**
 
 - Reflection 3: Does the change in the number of protests from 2018 to 2019 to 2020 surprise you? Why or why not? What do you think explains the fluctuation? Please answer in 1 or 2 sentences (2 points)
+**The decrease in the number of protests from 2018 to 2019 does suprise me, however a reason for the large number of protests in 2018 might be because of the ongoing trade war at the time. The increase in protests in 2020 didn't suprise me especially given in the increased concern with social justice issues and the widespread BLM movement.**
 
 - Reflection 4: What is the first and fourth most frequent category of protest? Do these frequencies align with your sense of the major protest movements in the U.S. in the last few years? Why or why not? (3 points)
+**The first most frequent category of protest is Racial Injustice at 10620 and the fourth most frequient category of protest is Immigration at 3496. These frequencies do align with the topics of major interest that have been trending in the news in recent years. We can often see debate over immigration and alot of support for BLM as they appear in social media, Presidential debates, and on television.**
 
 ## After You Code: Critical Analysis & Reflection
 
@@ -67,7 +70,10 @@ In the second chapter of *Data Feminism*, Klein and D'Ignazio describe 4 ways th
 > (4) Teach: The identities of data scientists matter, so how might we engage and empower newcomers to the field in order to shift the demographics and cultivate the next generation of data feminists?  
 
 - How does the CountLove project embody one or more of these 4 forms of challenging power? Please answer in at least 3-4 sentences (3 points)
+**The CountLove project embodies the first way of challenging power and taking action of collecting and compiling counterdata-in the face of missing data. It was mentioned in the CountLove FAQ that there were no other databases like this before despite protests and demonstrations being an important tool for driving social change. This can also been seen as a way of challenging power since I do not see a large institution creating open source data on critcism they receive despite it being a very important piece of information for people to know and understand.**
 
 - What is the most interesting or surprising thing you learned from this analysis? Please answer in at least 2-3 sentences (2 points)
+**The most suprising thing that I learned from the analysis is that there was a decrease in the number of protests that don't count as regular business in 2019 compared to 2018. It was also interesting to see that despite the COVID19 outbreak, the number of protests and demonstrations in 2020 nearly doubled that of 2019.**
 
 - What is a kind of analysis that you would like to do or that would be interesting to do with the CountLove data that you don't have the time or skills to accomplish at this moment? Please answer in at least 2-3 sentences (2 points)
+**I would like to have created some data visualizations. For example, I believe that creating a visualization of the number of protests by state, the most common types of protests by state, or a graph of the number of protests over time would grant us additional insights on the data that we did not have before.**

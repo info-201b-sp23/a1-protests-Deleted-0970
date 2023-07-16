@@ -134,7 +134,7 @@ prop_in_wa <- num_in_wa / num_protests
 # count_protests_in_location function that returns a sentence
 count_protests_in_location <- function(in_location) {
   num <- length(locations[str_count(locations, pattern = in_location) >= 1])
-  if(num > 0) {
+  if (num > 0) {
     statement <- str_c("There were ", num, " protests in ", in_location)
   } else {
     statement <- "Sorry, that location is not found."
@@ -155,7 +155,7 @@ minneapolis_summary <- count_protests_in_location("Minneapolis")
 # (3.h) Let's try to find out how many protests occurred in each state. To do
 # so, first use a stringr function to extract the last 2 characters from every
 # location and use these 2 characters to create a new vector called `states`
-states <- substr(locations, nchar(locations)-1, nchar(locations))
+states <- substr(locations, nchar(locations) - 1, nchar(locations))
 
 # (3.i) What are the unique states are in the dataset? Create a vector of just the
 # unique states in the dataset
@@ -252,6 +252,8 @@ num_purposes <- length(unique(purposes))
 # to extract only the text before the parenthesis and then save them in a
 # variable `high_level_purposes`
 high_level_purposes <- trimws(gsub("\\(.*?\\)", "", purposes))
+# \\( means from first parentheses, including any number of symbols .*? until
+# the closing parentheses \\). Found on internet.
 
 # There are some built-in R functions where you can replace text using regular
 # expressions.

@@ -163,7 +163,7 @@ states <- substr(locations, nchar(locations) - 1, nchar(locations))
 # Hint: Due to the way the data was collected, you may notice some "nonsense"
 # state abbreviations, such as "CE." YOU DO NOT NEED TO FIX THIS, but you may
 # reflect to yourself on why this might be happening.
-uniq_states <- unique(states)
+uniq_states <- unique(toupper(states))
 
 # (3.j) Now apply your `count_protests_in_location` function to every state in
 # `uniq_states` by using the `sapply()` function.
